@@ -159,6 +159,13 @@
             .then(() => alert("numéro copié !"))
             .catch(err => console.error("Erreur de copie :", err));
     });
+
+    const mail = document.getElementById("mail");
+    mail.addEventListener("click", () => {
+        navigator.clipboard.writeText(mail.innerText)
+            .then(() => alert("mail copié !"))
+            .catch(err => console.error("Erreur de copie :", err));
+    });
 </script>
 <script src="script.js"></script>
 </body>
