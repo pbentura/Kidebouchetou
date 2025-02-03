@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidebouchetou - Plomberie Professionnelle</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section id="accueil" class="hero is-primary is-bold is-medium is-fullheight">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title is-1">Kidebouchetou</h1>
+            <h2 class="subtitle">Votre expert en plomberie de confiance</h2>
+            <h3 class="subtitle">06 03 74 07 04</h3>
+            <a href="#contact" class="button is-outlined is-large">Contactez-nous</a>
+        </div>
+        <aside class="menu">
+            <a class="navbar-item" href="#accueil">Accueil</a>
+            <a class="navbar-item" href="#services">Services</a>
+            <a class="navbar-item" href="#apropos">À Propos</a>
+            <a class="navbar-item" href="#contact">Contact</a>
+        </aside>
+    </div>
+</section>
+
+<section id="services" class="section">
+    <div class="container">
+        <h2 class="title is-2 has-text-centered">Nos Services</h2>
+        <div class="columns is-multiline">
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="images/camion.webp" alt="Réparation de fuites">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p class="title is-4">Réparation de fuites</p>
+                        <p class="subtitle is-6">Détection et réparation rapide de toutes les fuites</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="images/sanitaire.jpg" alt="Installation de sanitaires">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p class="title is-4">Installation de sanitaires</p>
+                        <p class="subtitle is-6">Pose et remplacement de tous types de sanitaires</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="images/evier.webp" alt="Débouchage">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p class="title is-4">Débouchage</p>
+                        <p class="subtitle is-6">Débouchage rapide et efficace de vos canalisations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="apropos" class="section">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column">
+                <h2 class="title is-2">À Propos de Kidebouchetou</h2>
+                <p class="content is-medium">
+                    Depuis plus de 25 ans, Kidebouchetou est votre partenaire de confiance pour tous vos besoins en
+                    plomberie. Notre équipe d'experts qualifiés s'engage à fournir des services de haute qualité,
+                    rapides et fiables pour résoudre tous vos problèmes de plomberie.
+                </p>
+                <p class="content is-medium">
+                    Que ce soit pour une urgence ou un projet d'installation, nous sommes là pour vous servir avec
+                    professionnalisme et efficacité.
+                </p>
+            </div>
+            <div class="column">
+                <figure class="image is-4by3">
+                    <img src="images/robinet.jpg" alt="Équipe Kidebouchetou">
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container is-flex is-justify-content-center is-align-items-center">
+        <div class="column ">
+            <form id="contact-form" class="box" action="https://formspree.io/f/xovjwyyk"
+                  method="POST">
+                <h2 class="title has-text-centered">Contactez-nous</h2>
+                <div class="field">
+                    <label class="label">Nom</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Votre nom" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" name="email" placeholder="Votre email" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" name="message" placeholder="Votre message" required></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-link is-fullwidth is-rounded" type="submit">Envoyer</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            <strong>Kidebouchetou</strong> - Votre expert en plomberie depuis 1997.
+        </p>
+        <p>
+            <a href="#" class="icon is-large"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#" class="icon is-large"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="icon is-large"><i class="fab fa-instagram fa-2x"></i></a>
+        </p>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
