@@ -136,15 +136,30 @@
         <p>
             <strong>Kidebouchetou</strong> - Votre expert en plomberie depuis 1997.
         </p>
-        <p>
-            <a href="#" class="icon is-large"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="#" class="icon is-large"><i class="fab fa-twitter fa-2x"></i></a>
-            <a href="#" class="icon is-large"><i class="fab fa-instagram fa-2x"></i></a>
-        </p>
+    </div>
+
+    <div class="content has-text-centered">
+        <div class="buttons is-centered">
+            <button id="num" >
+                <i class="fa-solid fa-phone"></i> 06 03 74 07 04
+            </button>
+
+            <button id="mail" >
+                <i class="fa-solid fa-envelope"></i> isacbentura@gmail.com
+            </button>
+        </div>
     </div>
 </footer>
 
 
+<script>
+    const num = document.getElementById("num");
+    num.addEventListener("click", () => {
+        navigator.clipboard.writeText(num.innerText)
+            .then(() => alert("numéro copié !"))
+            .catch(err => console.error("Erreur de copie :", err));
+    });
+</script>
 <script src="script.js"></script>
 </body>
 </html>

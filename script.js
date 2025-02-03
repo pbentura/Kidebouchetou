@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+
     // Navbar burger menu
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"), 0)
     if ($navbarBurgers.length > 0) {
@@ -21,18 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
             })
         })
     })
-
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        var name = document.querySelector('input[type="text"]').value;
-        var email = document.querySelector('input[type="email"]').value;
-        var message = document.querySelector('textarea').value;
-
-        if (!name || !email || !message) {
-            alert('Tous les champs sont obligatoires !');
-            event.preventDefault();
-        }
-    });
-
 
 
     const textContainer = document.querySelector(".text-container");
