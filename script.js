@@ -74,5 +74,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     document.body.appendChild(container);
+
+    AOS.init({
+        duration: 1000,
+    });
 })
 

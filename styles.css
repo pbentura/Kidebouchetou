@@ -17,6 +17,13 @@
     box-shadow: 0 0.5em 1em -0.125em hsl(198, 100%, 70%), 0 0 0 1px hsl(219, 74%, 42%);
 }
 
+/* Ajuster la taille de l'image plus petite */
+#equipe {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
 .card-content {
     flex-grow: 1;
 }
@@ -31,6 +38,10 @@
 
 .footer .icon {
     margin: 0 0.5rem;
+}
+
+section {
+    margin-bottom: 80px;
 }
 
 .hero-section {
