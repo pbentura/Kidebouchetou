@@ -77,10 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Vérification initiale
-    checkHomePage();
-
-    // Ajouter un événement au scroll pour vérifier si on quitte l'accueil
-    window.addEventListener("scroll", checkHomePage);
+    // checkHomePage();
+    //
+    // // Ajouter un événement au scroll pour vérifier si on quitte l'accueil
+    // window.addEventListener("scroll", checkHomePage);
 
     AOS.init({
         duration: 1000,
